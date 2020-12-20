@@ -26,8 +26,8 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	fpgav2 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com/v2"
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/fpgacontroller/patcher"
+	fpgav2 "github.com/ouclight/inspur-device-plugins-for-kubernetes/pkg/apis/inspur.com/v2"
+	"github.com/ouclight/inspur-device-plugins-for-kubernetes/pkg/fpgacontroller/patcher"
 )
 
 //light

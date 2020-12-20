@@ -29,9 +29,9 @@ import (
 //edn
 	corev1 "k8s.io/api/core/v1"
 
-	fpgav2 "github.com/intel/intel-device-plugins-for-kubernetes/pkg/apis/fpga.intel.com/v2"
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/fpga"
-	"github.com/intel/intel-device-plugins-for-kubernetes/pkg/internal/containers"
+	fpgav2 "github.com/ouclight/inspur-device-plugins-for-kubernetes/pkg/apis/inspur.com/v2"
+	"github.com/ouclight/inspur-device-plugins-for-kubernetes/pkg/fpga"
+	"github.com/ouclight/inspur-device-plugins-for-kubernetes/pkg/internal/containers"
 )
 
 //light
